@@ -20,6 +20,7 @@ public class OffersPage {
 	public void searchItem(String name)
 	{
 		driver.findElement(search).sendKeys(name);
+		System.out.println(name);
 	}
 	
 	public void getSearchText()
