@@ -4,11 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class OffersPage {
+	
 	public WebDriver driver;
 
 	public OffersPage(WebDriver driver)
 	{
 		this.driver = driver;
+		System.out.println("Driver is "+driver);
 		
 	}
 	private By search = By.xpath("//input[@type='search']");
